@@ -78,14 +78,14 @@ Plain Image  (M × N grayscale)
 ┌───────────────────────────────┐
 │  Phase 2 — LPWLCM Diffusion   │
 │  XOR every pixel              │
-│  I_d(i,j) = I_c(i,j) ⊕ S     │
+│  I_d(i,j) = I_c(i,j) ⊕ S      │
 └───────────────────────────────┘
         │
         ▼
 ┌───────────────────────────────┐
 │  Phase 3 — ECC ElGamal        │
 │  Per-pixel encryption         │
-│  C1 = r·G,  C2 = M + (r·K).x │
+│  C1 = r·G,  C2 = M + (r·K).x  │
 └───────────────────────────────┘
         │
         ▼
